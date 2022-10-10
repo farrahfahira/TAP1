@@ -1,0 +1,58 @@
+* {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #fafaed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo {
+  font-size: 30px;
+  padding-left: 16px;
+  color: #1820ef;
+}
+
+ul {
+  display: flex;
+  font-size: 16px;
+}
+
+ul li {
+  margin: 0 10px;
+  color: #1820ef;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
+  margin-top: 100px;
+}
+
+.home-text {
+  font-size: 16px;
+  padding: 35px 70px;
+  text-align: justify;
+}
+
+.home-text h1 {
+  margin-bottom: 10px;
+  color: #ff4e42;
+}
+
+.home-img {
+  padding: 10px 70px;
+}
